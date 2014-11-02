@@ -1,0 +1,280 @@
+.palm-page-header-wrapper {
+    font-weight: bold;
+	text-align:center;
+	height: 50px;
+  	line-height: 50px;
+	background-image:url(../images/header.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+/*body.palm-default {
+	background-image:url(../images/background.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}*/
+
+#mojo-scene-welcome-scene-scroller {
+	background-image:url(../images/background.png);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+#mojo-scene-about-scene-scroller {
+	background-image:url(../images/background.png);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+#mojo-scene-tutorial-scene-scroller {
+	background-image:url(../images/background.png);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+#mojo-scene-faq-scene-scroller {
+	background-image:url(../images/background.png);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+
+#mojo-scene-settings-scene-scroller {
+	background-image:url(../images/background.png);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+#mojo-scene-courserandom-scene-scroller {
+	background-image:url(../images/background.png);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+#mojo-scene-courseselector-scene-scroller {
+	background-image:url(../images/background.png);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+#mojo-scene-coursecreate-scene-scroller {
+	background-image:url(../images/background.png);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+#waitforgps
+{
+	z-index: 1001;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+	width:320px;
+	height:320px;
+	background-color:#000000;
+	opacity: 0.85;
+	display: block;
+	color:#ffffff;
+}
+
+#waiting_spinner2
+{
+	z-index: 1002;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+	width:320px;
+	height:480px;
+	background-color:#000000;
+	opacity: 0.85;
+	display: none;
+	color:#ffffff;
+}
+
+#waiting_spinner3
+{
+	z-index: 1002;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+	width:320px;
+	height:480px;
+	background-color:#000000;
+	opacity: 0.85;
+	display: none;
+	color:#ffffff;
+}
+
+#shoot_accel
+{
+	z-index: 1002;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+	width:320px;
+	height:480px;
+	background-color:#000000;
+	opacity: 0.85;
+	display: none;
+	color:#ffffff;
+}
+
+#shoot
+{
+	z-index: 1002;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+	width:320px;
+	height:480px;
+	background-color:#000000;
+	opacity: 0.85;
+	display: none;
+	color:#ffffff;
+}
+
+#holein
+{
+	z-index: 1002;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+	width:320px;
+	height:480px;
+	background-color:#000000;
+	opacity: 0.85;
+	display: none;
+	color:#ffffff;
+}
+
+#toofartoball
+{
+	z-index: 1001;
+    position: fixed;
+    left: 0;
+    top: 320px;
+    bottom: 0;
+    right: 0;
+	width:320px;
+	background-color:#000000;
+	opacity: 0.85;
+	display: none;
+	color:#ffffff;
+}
+
+#toolowacc
+{
+	z-index: 1001;
+    position: fixed;
+    left: 0;
+    top: 320px;
+    bottom: 0;
+    right: 0;
+	width:320px;
+	background-color:#000000;
+	opacity: 0.85;
+	display: block;
+	color:#ffffff;
+}
+
+#info
+{
+	z-index: 1001;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+	height: 23px;
+	background-color: #000000;
+	opacity: 0.5;
+	font-size: 17px;
+	color: #ffffff;
+	display: none;
+}
+
+#map
+{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+	height: 320px;
+}
+
+#slider_bearing
+{
+    position: fixed;
+    left: 10px;
+    top: 340px;
+    bottom: 0px;
+    right: 0;
+}
+
+#slider_bearing_bg
+{
+	position: fixed;
+    left: 0px;
+    top: 340px;
+    bottom: 0px;
+    right: 0;
+	width: 320px;
+	height:35px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#slider_power
+{
+    position: fixed;
+    left: 10px;
+    top: 390px;
+    bottom: 0px;
+    right: 0;
+}
+
+#slider_power_bg
+{
+	position: fixed;
+    left: 0px;
+   	top: 390px;
+    bottom: 0px;
+    right: 0;
+	width: 320px;
+	height:35px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#buttons
+{
+	z-index: 1002;
+    position: fixed;
+    left: 0px;
+    top: 410px;
+    bottom: 0px;
+    right: 0px;
+}
+
+#button_shoot
+{
+	display: none;
+}
+
+#button_addball
+{
+	display: none;
+}

@@ -1,0 +1,70 @@
+<div id="main">
+	<div id="waiting_spinner2"><br><center><h2>Lade Kurs hoch...</h2>Bitte warten.</center><br><div x-mojo-element="Spinner" id="waiting_spinner" style="margin:auto"></div></div>
+	
+    <div id="main-body" class="itemFull">
+    	<br><center><u><b>Kurs erstellen</b></u></center><br>
+		<div id='gps_info'><center>Aktuelle Position:<br>lon/lat<br>Abweichung</center></div>
+		<br>
+		<div id='hole_pos'><center>XX.X / XX.X</center></div>
+		<button id='set_hole' class='palm-button'>Loch setzen</button>
+		<div id='ball_pos'><center>XX.X / XX.X</center></div>
+		<button id='set_ball' class='palm-button'>Ball setzen</button>
+		<div class="palm-group">
+			<div class="palm-group-title" x-mojo-loc=''>Kursname</div>
+			<div class="palm-list">
+		   		<div class="palm-row single">
+					<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+						<div class="title">
+		      				<div id="course_name" name="textField"  x-mojo-element="TextField"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="palm-group">
+			<div class="palm-group-title" x-mojo-loc=''>Name des Erstellers</div>
+			<div class="palm-list">
+		   		<div class="palm-row single">
+					<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+						<div class="title">
+		      				<div id="course_creator" name="textField"  x-mojo-element="TextField"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="palm-group">
+			<div class="palm-group-title" x-mojo-loc=''>Informationen zu dem Kurs</div>
+			<div class="palm-list">
+		   		<div class="palm-row single">
+					<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+						<div class="title">
+		      				<div id="course_info" name="textField"  x-mojo-element="TextField"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<table class="palm-list-section-label">
+			<tr>
+				<td>
+					<span x-mojo-loc="">Slider Abschlag:</span>		
+				</td>
+				<td>
+					<div id="shoot_normal_t" x-mojo-element="ToggleButton" class="toggle-text"></div>
+				</td>	
+			</tr>
+		</table>
+		<table class="palm-list-section-label">
+			<tr>
+				<td>
+					<span x-mojo-loc="">Accel. Abschlag:</span>		
+				</td>
+				<td>
+					<div id="shoot_accel_t" x-mojo-element="ToggleButton" class="toggle-text"></div>
+				</td>	
+			</tr>
+		</table>
+		<button id='save' class='palm-button'>Kurs hochladen</button>
+    </div>
+</div>

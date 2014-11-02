@@ -1,0 +1,45 @@
+[
+    {"source": "app/assistants/stage-assistant.js"},
+    {"source": "app/utils/admob.js"},
+    {
+        "scenes": "main",
+        "source": "app/assistants/main-assistant.js"
+    },
+    {"source": "javascripts/DateFormat.js"},
+    {"source": "javascripts/OpenLayers.js"},
+    {"source": "javascripts/OpenStreetMap.js"},
+    {"source": "javascripts/Map.js"},
+    {"source": "javascripts/Gps.js"},
+    {
+        "scenes": "courseselector",
+        "source": "app/assistants/courseselector-assistant.js"
+    },
+    {
+        "scenes": "courserandom",
+        "source": "app/assistants/courserandom-assistant.js"
+    },
+    {
+        "scenes": "welcome",
+        "source": "app/assistants/welcome-assistant.js"
+    },
+    {
+        "scenes": "coursecreate",
+        "source": "app/assistants/coursecreate-assistant.js"
+    },
+    {
+        "scenes": "about",
+        "source": "app/assistants/about-assistant.js"
+    },
+    {
+        "scenes": "settings",
+        "source": "app/assistants/settings-assistant.js"
+    },
+    {
+        "scenes": "tutorial",
+        "source": "app/assistants/tutorial-assistant.js"
+    },
+    {
+        "scenes": "faq",
+        "source": "app/assistants/faq-assistant.js"
+    }
+]

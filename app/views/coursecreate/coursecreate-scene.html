@@ -1,0 +1,70 @@
+<div id="main">
+	<div id="waiting_spinner2"><br><center><h2>Uploading Course...</h2>Please Wait.</center><br><div x-mojo-element="Spinner" id="waiting_spinner" style="margin:auto"></div></div>
+	
+    <div id="main-body" class="itemFull">
+    	<br><center><u><b>Create Course</b></u></center><br>
+		<div id='gps_info'><center>Actual Position and Accuracy:<br>lon/lat<br>Accuracy</center></div>
+		<br>
+		<div id='hole_pos'><center>XX.X / XX.X</center></div>
+		<button id='set_hole' class='palm-button'>Set Hole</button>
+		<div id='ball_pos'><center>XX.X / XX.X</center></div>
+		<button id='set_ball' class='palm-button'>Set Ball</button>
+		<div class="palm-group">
+			<div class="palm-group-title" x-mojo-loc=''>Coursename</div>
+			<div class="palm-list">
+		   		<div class="palm-row single">
+					<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+						<div class="title">
+		      				<div id="course_name" name="textField"  x-mojo-element="TextField"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="palm-group">
+			<div class="palm-group-title" x-mojo-loc=''>Name of Creator</div>
+			<div class="palm-list">
+		   		<div class="palm-row single">
+					<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+						<div class="title">
+		      				<div id="course_creator" name="textField"  x-mojo-element="TextField"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="palm-group">
+			<div class="palm-group-title" x-mojo-loc=''>Information</div>
+			<div class="palm-list">
+		   		<div class="palm-row single">
+					<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+						<div class="title">
+		      				<div id="course_info" name="textField"  x-mojo-element="TextField"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<table class="palm-list-section-label">
+			<tr>
+				<td>
+					<span x-mojo-loc="">Slider Shot:</span>		
+				</td>
+				<td>
+					<div id="shoot_normal_t" x-mojo-element="ToggleButton" class="toggle-text"></div>
+				</td>	
+			</tr>
+		</table>
+		<table class="palm-list-section-label">
+			<tr>
+				<td>
+					<span x-mojo-loc="">Accel. Shot:</span>		
+				</td>
+				<td>
+					<div id="shoot_accel_t" x-mojo-element="ToggleButton" class="toggle-text"></div>
+				</td>	
+			</tr>
+		</table>
+		<button id='save' class='palm-button'>Upload Course</button>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+<div id="main">
+	<div id="waiting_spinner2"><br><center><h2>Starting Course...</h2>Please Wait.</center><br><div x-mojo-element="Spinner" id="waiting_spinner" style="margin:auto"></div><br><br><div id="acc"><center>GPS deviation too high.<br>Acc. must be <50m (999m)</center></div></div>
+	
+    <div id="main-body" class="itemFull">
+    	<br><center><u><b>Golfcourse Settings</b></u></center><br>
+		
+		<div class="palm-row second" x-mojo-tap-highlight="momentary">
+			<div class="palm-row-wrapper">
+				<div id="distance_selector" x-mojo-element="ListSelector"></div>                                                   
+			</div>
+		</div>
+		<div class="palm-row second" x-mojo-tap-highlight="momentary">
+			<div class="palm-row-wrapper">
+				<div id="bearing_selector" x-mojo-element="ListSelector"></div>                                                   
+			</div>
+		</div>
+		
+		<button id='generate_course' class='palm-button'>Start</button>
+		
+		<div x-mojo-element="Spinner" id="large-activity-spinner" style="margin:auto"></div>
+    </div>
+</div>

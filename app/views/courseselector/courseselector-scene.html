@@ -1,0 +1,25 @@
+<div id="main">
+	<div id="waiting_spinner2"><br><center><h2>Starting Course...</h2>Please Wait.</center><br><div x-mojo-element="Spinner" id="waiting_spinner" style="margin:auto"></div></div>
+	<div id="waiting_spinner3"><br><center><h2>Downloading Courses...</h2>Please Wait.</center><br><div x-mojo-element="Spinner" id="waiting_spinner" style="margin:auto"></div><br><br><div id="acc"><center>GPS deviation too high.<br>Acc. must be <50m (999m)</center></div></div>
+	
+    <div id="main-body" class="itemFull">
+    	<br><center><u><b>Select Golfcourse</b></u></center><br>
+		
+		<div class="palm-row second" x-mojo-tap-highlight="momentary">
+			<div class="palm-row-wrapper">
+				<div id="course_selector" x-mojo-element="ListSelector"></div>                                                   
+			</div>
+		</div>
+		
+		<div x-mojo-element="Scroller" id="scroller_info" class="scrollerClass" name="scrollerName" style="height:113px">
+			<div align="center"><div align="left" id="infotext" style="font-size:15px;width:275px;padding:5px"></div></div>
+		</div>
+		<div style="height:10px"></div>
+		<div><center>Highscore</center></div>
+		<div x-mojo-element="Scroller" id="scroller_highscore" class="scrollerClass" name="scrollerName" style="height:85px">
+			<div align="center"><div align="left" id="highscore" style="font-size:15px;width:275px;padding:5px"></div></div>
+		</div>
+
+		<button id='download_course' class='palm-button'>Start</button>
+    </div>
+</div>

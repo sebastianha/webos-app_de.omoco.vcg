@@ -1,0 +1,109 @@
+{
+	"About": "Über",
+	"Settings": "Einstellungen",
+	"FAQ's": "FAQ's",
+	"Refresh": "Aktualisieren",
+	"allow": "erlauben",
+	"forbid": "verbieten",
+
+	"Actual Position and Accuracy:": "Aktuelle Position und Abweichung:",
+	"Distance Hole-Ball: ": "Distanz Loch zu Ball: ",
+	"Accuracy must be lower than ": "Abweichung muss kleiner sein als ",
+	"Hole position not set!": "Lochposition nicht gesetzt!",
+	"Ball position not set!": "Ballposition nicht gesetzt!",
+	"The distance between ball and hole has to be greater than 25m!": "Loch und Ball müssen mindestens 25m auseinander sein!",
+	"You have to set a name for the course!": "Du musst einen Namen für den Kurs angeben!",
+	"You have to set a creator for the course!": "Du musst einen Ersteller für den Kurs angeben!",
+	"You have to set the information text for the course!": "Du musst den Informationstext für den Kurs angeben!",
+	"You have to allow at least one stroke type!": "Eine der beiden Schlagmöglichkeiten musst du erlauben!",
+	"Could not create the course!": "Kurs konnte nicht erstellt werden!",
+	"Could not upload the course!": "Kurs konnte nicht hochgeladen werden!",
+
+	"Radius": "Umkreis",
+	"Direction": "Richtung",
+	"Random": "Zufällig",
+	"North": "Norden",
+	"North-East": "Nord-Osten",
+	"East": "Osten",
+	"South-East": "Süd-Osten",
+	"South": "Süden",
+	"South-West": "Süd-Westen",
+	"West": "Westen",
+	"North-West": "Nord-Westen",
+	"GPS deviation too high.<br>Acc. must be <50m": "GPS Abweichung noch zu hoch.<br>Abw. muss <50m sein",
+	"Please make sure that GPS is<br>activated and working properly!": "Bitte sicherstellen, dass GPS an<br>ist und auch richtig funktioniert!",
+	"You have to be outside and under<br>clear sky to get a good fix!": "Du musst dich draußen und unter<br>freiem Himmel befinden!",
+
+	"Downloading courses...": "Lade Kurse herunter...",
+	"Course": "Kurs",
+	"Multi-Hole": "Multi-Loch",
+	"Standard Golf": "Standard Golf",
+	"Unknown": "Unbekannt",
+	"Normal and Accel": "Normal und Accel",
+	"Normal only": "Nur Normal",
+	"Accel only": "Nur Accel",
+	"Shoot": "Schuss",
+	"Not Allowed": "Nicht erlaubt",
+	"Allowed": "Erlaubt",
+	"Set Ball:": "B. setzen:",
+	"Info:": "Info:",
+	"Downloading Highscore...": "Lade Highscore runter...",
+	"Only standard golf<br>has highscores.": "Highscores gibt es nur<br>beim Standard Golf Typ.",
+	"Error while downloading": "Fehler beim Runterladen",
+	"No courses around!": "Keine Kurse in der Nähe!",
+	"No courses around, please create a new one!": "Keine Kurse in der Nähe gefunden, bitte erstelle einen neuen Kurs!",
+	"Could not download courses!": "Konnte Kurse nicht runterladen!",
+	"Could not download holes!": "Konnte Löscher nicht runterladen!",
+	"Could not download balls!": "Konnte Bälle nicht runterladen!",
+	" Strokes, ": " Schläge, ",
+
+	"yes": "ja",
+	"no": "nein",
+	"You have to enter a name!": "Du musst einen Namen angeben!",
+	"Anonymous": "Anonym",
+
+	"Message": "Nachricht",
+
+	"Hole-In": "Eingelocht",
+	"Wohoo, you got the ball into the hole<br>It only took you ": "Wohoo, du hast den Golfball eingelocht!<br>Du hast auch nur ",
+	" strokes.": " Schläge gebraucht.",
+	"Initial distance: ": "Die Startdistanz betrug: ",
+	"Your distance: ": "Die Zurückgelegte beträgt: ",
+	"completed the golfcourse \"": "hat den Golfkurs \"",
+	"\" with only ": "\" mit nur ",
+	" strokes. %23vcg": " Schlägen geschafft. %23vcg",
+	"Uploading result to highscore...": "Sende Ergebnis zur Highscore...",
+	"Stroke No.:": "Schlag Nr.:",
+	"Stroke": "Schuss",
+	"Dist. to start:": "Zurückg. Distanz:",
+	"Dist. to next hole:": "Distanz zum n. Loch:",
+	"Bearing:": "Ausrichtung:",
+	"Power:": "Power:",
+	"Shoot": "Schuss",
+	"Too far away from a ball!": "Zu weit von einem Ball entfernt!",
+	" Strokes, ": " Schläge, ",
+	"Upload successful.<br>Downloading highscore...": "Senden erfolgreich.<br>Lade Highscore runter...",
+	"Upload failed.<br>Downloading highscore...": "Senden fehlgeschlagen.<br>Lade Highscore runter...",
+	"Too far away from a ball.<br>You are ": "Bitte näher an einen Ball gehen.<br>Noch ",
+	"away.": "entfernt.",
+	"GPS deviation too high.<br>Acc. must be <": "GPS Abweichung zu hoch.<br>Abw. muss <",
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
